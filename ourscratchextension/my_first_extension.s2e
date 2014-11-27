@@ -1,0 +1,12 @@
+{ 
+	"extensionName": "Naxders first extension",
+	"extensionPort": 12345,
+	"blockSpecs": [
+		["r", "get hello world", "helloWorld"],
+		["r", "get xander and mama", "xanderMama"],
+		["r","game number","gameNumber"],
+		[" ","get a game","getGame"],
+		[" ","naxder","naxder"],
+		["r","naxder","naxder2"]
+		]
+}
