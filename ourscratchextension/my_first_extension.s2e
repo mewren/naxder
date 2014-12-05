@@ -6,7 +6,7 @@
 		["r", "get xander and mama", "xanderMama"],
 		["r","game number","gameNumber"],
 		[" ","get a game","getGame"],
-		[" ","naxder","naxder"],
-		["r","naxder","naxder2"]
+		["r","oh-number","oh-number"]
+		
 		]
 }

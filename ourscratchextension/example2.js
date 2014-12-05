@@ -3,6 +3,7 @@ var fs = require('fs');
 
 var app = express();
 var gameNumber;
+var ohnumber;
 
 // Random Integer between two values
 function randomInt (low, high) {
@@ -55,7 +56,7 @@ app.get('/poll', function(req, res){
 	
   //console.log("request for /poll ")
 	
-  res.send("helloWorld hello_world\nxanderMama Xander_Mama\ngameNumber "+gameNumber);
+  res.send("helloWorld hello_world\nxanderMama Xander_Mama\ngameNumber "+gameNumber+"\noh# "+ohnumber);
   //console.log(res)
 });
 
