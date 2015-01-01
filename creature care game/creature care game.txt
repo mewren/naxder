@@ -26,7 +26,7 @@ player3
 - 16 Sea creatures
 	- 1 shark
 	- 1 whale
-	- 10 fish
+	- 6 fish
 	- 4 sting rays
 	- 4 sea lions
 
@@ -38,6 +38,12 @@ player4
 	- 1 Snow Owl
 	- 1 Barn Owl
 
+player5
+- 16 mechanical machines
+	- 4 "bot awesome"
+	- 4 "drawing bot"
+	- 4 "sphero"
+	- 4 "androids"
 
 start out with animals belonging to your player
 can swap all animals with another player  (but not just one)
