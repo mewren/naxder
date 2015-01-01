@@ -1,0 +1,45 @@
+Xander's creature care game
+
+player1
+- 11 big cats
+	- 2 Tiger
+	
+	- 2 Lions
+	
+	- 7 Cheetahs
+	
+		- fed daily
+		- enrichment provided weekly
+		- poo cleanup monthly
+
+player2
+- 24 Mythical creatures
+	- 4 unicorns
+	
+	- 8 forest spirits (like Totoro)
+	
+	- 6 fairies
+	
+	- 6 dragons
+
+player3
+- 16 Sea creatures
+	- 1 shark
+	- 1 whale
+	- 10 fish
+	- 4 sting rays
+	- 4 sea lions
+
+player4
+- 16 Birds
+	- 2 bald eagle
+	- 2 Steller's Sea Eagles
+	- 10 Dark Eyed Juncos
+	- 1 Snow Owl
+	- 1 Barn Owl
+
+
+start out with animals belonging to your player
+can swap all animals with another player  (but not just one)
+
+
