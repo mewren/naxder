@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDBFA65D1A544A3000F8797A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBFA65C1A544A3000F8797A /* AppDelegate.swift */; };
+		BDBFA65F1A544A3000F8797A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBFA65E1A544A3000F8797A /* GameScene.swift */; };
+		BDBFA6611A544A3000F8797A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BDBFA6601A544A3000F8797A /* GameScene.sks */; };
+		BDBFA6631A544A3000F8797A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBFA6621A544A3000F8797A /* Images.xcassets */; };
+		BDBFA6661A544A3000F8797A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDBFA6641A544A3000F8797A /* MainMenu.xib */; };
+		BDBFA6721A544A3000F8797A /* hearthscratchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBFA6711A544A3000F8797A /* hearthscratchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDBFA66C1A544A3000F8797A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDBFA64F1A544A3000F8797A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDBFA6561A544A3000F8797A;
+			remoteInfo = hearthscratch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDBFA6571A544A3000F8797A /* hearthscratch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hearthscratch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBFA65B1A544A3000F8797A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDBFA65C1A544A3000F8797A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDBFA65E1A544A3000F8797A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		BDBFA6601A544A3000F8797A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		BDBFA6621A544A3000F8797A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BDBFA6651A544A3000F8797A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BDBFA66B1A544A3000F8797A /* hearthscratchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hearthscratchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBFA6701A544A3000F8797A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDBFA6711A544A3000F8797A /* hearthscratchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hearthscratchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDBFA6541A544A3000F8797A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBFA6681A544A3000F8797A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDBFA64E1A544A2F00F8797A = {
+			isa = PBXGroup;
+			children = (
+				BDBFA6591A544A3000F8797A /* hearthscratch */,
+				BDBFA66E1A544A3000F8797A /* hearthscratchTests */,
+				BDBFA6581A544A3000F8797A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDBFA6581A544A3000F8797A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDBFA6571A544A3000F8797A /* hearthscratch.app */,
+				BDBFA66B1A544A3000F8797A /* hearthscratchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDBFA6591A544A3000F8797A /* hearthscratch */ = {
+			isa = PBXGroup;
+			children = (
+				BDBFA65C1A544A3000F8797A /* AppDelegate.swift */,
+				BDBFA65E1A544A3000F8797A /* GameScene.swift */,
+				BDBFA6601A544A3000F8797A /* GameScene.sks */,
+				BDBFA6621A544A3000F8797A /* Images.xcassets */,
+				BDBFA6641A544A3000F8797A /* MainMenu.xib */,
+				BDBFA65A1A544A3000F8797A /* Supporting Files */,
+			);
+			path = hearthscratch;
+			sourceTree = "<group>";
+		};
+		BDBFA65A1A544A3000F8797A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDBFA65B1A544A3000F8797A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDBFA66E1A544A3000F8797A /* hearthscratchTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDBFA6711A544A3000F8797A /* hearthscratchTests.swift */,
+				BDBFA66F1A544A3000F8797A /* Supporting Files */,
+			);
+			path = hearthscratchTests;
+			sourceTree = "<group>";
+		};
+		BDBFA66F1A544A3000F8797A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDBFA6701A544A3000F8797A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDBFA6561A544A3000F8797A /* hearthscratch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDBFA6751A544A3000F8797A /* Build configuration list for PBXNativeTarget "hearthscratch" */;
+			buildPhases = (
+				BDBFA6531A544A3000F8797A /* Sources */,
+				BDBFA6541A544A3000F8797A /* Frameworks */,
+				BDBFA6551A544A3000F8797A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hearthscratch;
+			productName = hearthscratch;
+			productReference = BDBFA6571A544A3000F8797A /* hearthscratch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDBFA66A1A544A3000F8797A /* hearthscratchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDBFA6781A544A3000F8797A /* Build configuration list for PBXNativeTarget "hearthscratchTests" */;
+			buildPhases = (
+				BDBFA6671A544A3000F8797A /* Sources */,
+				BDBFA6681A544A3000F8797A /* Frameworks */,
+				BDBFA6691A544A3000F8797A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDBFA66D1A544A3000F8797A /* PBXTargetDependency */,
+			);
+			name = hearthscratchTests;
+			productName = hearthscratchTests;
+			productReference = BDBFA66B1A544A3000F8797A /* hearthscratchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDBFA64F1A544A3000F8797A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Jen Nolan";
+				TargetAttributes = {
+					BDBFA6561A544A3000F8797A = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					BDBFA66A1A544A3000F8797A = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = BDBFA6561A544A3000F8797A;
+					};
+				};
+			};
+			buildConfigurationList = BDBFA6521A544A3000F8797A /* Build configuration list for PBXProject "hearthscratch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDBFA64E1A544A2F00F8797A;
+			productRefGroup = BDBFA6581A544A3000F8797A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDBFA6561A544A3000F8797A /* hearthscratch */,
+				BDBFA66A1A544A3000F8797A /* hearthscratchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDBFA6551A544A3000F8797A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBFA6611A544A3000F8797A /* GameScene.sks in Resources */,
+				BDBFA6631A544A3000F8797A /* Images.xcassets in Resources */,
+				BDBFA6661A544A3000F8797A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBFA6691A544A3000F8797A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDBFA6531A544A3000F8797A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBFA65F1A544A3000F8797A /* GameScene.swift in Sources */,
+				BDBFA65D1A544A3000F8797A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBFA6671A544A3000F8797A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBFA6721A544A3000F8797A /* hearthscratchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDBFA66D1A544A3000F8797A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDBFA6561A544A3000F8797A /* hearthscratch */;
+			targetProxy = BDBFA66C1A544A3000F8797A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDBFA6641A544A3000F8797A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDBFA6651A544A3000F8797A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDBFA6731A544A3000F8797A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDBFA6741A544A3000F8797A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BDBFA6761A544A3000F8797A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = hearthscratch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDBFA6771A544A3000F8797A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = hearthscratch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BDBFA6791A544A3000F8797A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = hearthscratchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hearthscratch.app/Contents/MacOS/hearthscratch";
+			};
+			name = Debug;
+		};
+		BDBFA67A1A544A3000F8797A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = hearthscratchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hearthscratch.app/Contents/MacOS/hearthscratch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDBFA6521A544A3000F8797A /* Build configuration list for PBXProject "hearthscratch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBFA6731A544A3000F8797A /* Debug */,
+				BDBFA6741A544A3000F8797A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDBFA6751A544A3000F8797A /* Build configuration list for PBXNativeTarget "hearthscratch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBFA6761A544A3000F8797A /* Debug */,
+				BDBFA6771A544A3000F8797A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDBFA6781A544A3000F8797A /* Build configuration list for PBXNativeTarget "hearthscratchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBFA6791A544A3000F8797A /* Debug */,
+				BDBFA67A1A544A3000F8797A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDBFA64F1A544A3000F8797A /* Project object */;
+}

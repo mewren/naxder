@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HTML internal links</title>
+        <style>
+			#header ul {
+				list-style: none;
+				padding:0;
+				margin:0;
+			}
+#header li {
+	display: inline;
+	border: solid;
+	border-width: 1px 1px 0 1px;
+	margin: 0 0.5em 0 0;
+}
+
+#header li a {
+	padding: 0 1em;
+}
+
+#content {
+	border: 1px solid;
+}
+#header #selected {
+	padding-bottom: 1px; 
+	background: white;
+}
+#header li {
+	float: left;
+	border: 1px solid;
+	border-bottom-width: 0;
+	margin: 0 0.5em 0 0;
+}
+#content {
+	border: 1px solid;
+	clear: both;
+}
+
+h1 {
+	margin: 0;
+	padding: 0 0 1em 0;
+} 
+#header #selected {
+	position: relative;
+	top: 1px;
+	background: white;
+}
+
+
+        </style>
+    </head>
+    <body>
+		<div id="header"> 
+
+		<h1>Tabs</h1>
+		<ul>
+			<li><a href="this.html">This</a></li>
+			<li id="selected"><a href="#">That</a></li>
+			<li><a href="#">The Other</a></li>
+			<li><a href="#">Banana</a></li>
+		</ul>
+
+		</div><div id="content">
+			<p>Ispum schmipsum.</p>
+		</div>        
+    </body>
+</html>

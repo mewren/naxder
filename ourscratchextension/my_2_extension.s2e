@@ -1,0 +1,12 @@
+{ 
+	"extensionName": "bot awesome's",
+	"extensionPort": 12345,
+	"blockSpecs": [
+		[" ","rightOn","rightOn"],
+		[" ","rightOff","rightOff"],
+		[" ","leftOn","leftOn"],
+		[" ","leftOff","leftOff"],
+		[" ","rightleftOff","rightleftOff"],
+		[" ","rightleftOn","rightleftOn"]
+		]
+}
