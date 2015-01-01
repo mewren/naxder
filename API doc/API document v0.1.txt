@@ -1,0 +1,148 @@
+FORMAT: 1A
+
+# naxder
+naxder game api
+
+# Group Game
+
+
+## Create [/games]      
+
+### Create a Game [POST]
++ Request (application/json)
+
+        { 
+            "owner": "naxder",
+            "lookingForPlayers": 1,
+            "heroType": "Mage"
+        }
+
++ Response 201 (application/json)
+
+        { "gameId": "ABCD" }
+
+### Get a list of all games needing players [GET]
+    
++ Response 200 (application/json)
+
+        [ 
+            {
+                "gameId": "ABCD",
+                "peopleInGame": "naxder",
+                "heroType": "Mage"
+            },
+            {
+                "gameId": "BCDE",
+                "peopleInGame": "mewren",
+                "heroType": "Priest"
+            }
+        ]
+        
+
+## Games [/games/{gameId}]
+
+### Join a specific game started by someone else [PUT]
++ Parameters
+
+    + gameId (required, string, `68a5sdf67`) ... The unique gameId
+    
++ Request (application/json)
+
+        { 
+            "owner": "mewren"
+        }
+    
++ Response 200 (application/json)
+
+        { 
+            "gameId": "ABCD",
+            "lookingForPlayers": 0
+        }
+
+
+## MessageToAllOtherPlayers [/messages]      
+
+### Create a Message [POST]
+* cardType: SPELL, WEAPON, MINION
+
++ Request (application/json)
+
+        { 
+            "owner": "naxder",
+            "gameId": "ABCD",
+            "opponent": "mewren",
+            "message": {
+                "cardPlayed": "Hellfire",
+                "cardId": "2345",
+                "cardType": "SPELL",
+                "activePlayer": "naxder" {
+                    "minionsAffected": [
+                        {
+                            "minionPlace": 1,
+                            "minion": "Murloc Raider",
+                            "healthChange": -3,
+                            "attackChange": 0,
+                            "frozen": false,
+                            "silenced": false,
+                            "sapped": false,
+                            "sheeped": false,
+                            "frogged": false,
+                            "defeated": true
+                        },
+                        {
+                            "minionPlace": 2,
+                            "minion": "Ogre",
+                            "healthChange": -3,
+                            "attackChange": 0,
+                            "frozen": false,
+                            "silenced": false,
+                            "sapped": false,
+                            "sheeped": false,
+                            "frogged": false,
+                            "defeated": true
+                        }
+                    ],
+                    "heroAffected": 
+                    {
+                            "weaponDamage": 0,
+                            "weaponDurability": 0,
+                            "healthChange": -3,
+                            "attackChange": 0,
+                            "armourChange": 0,
+                            "frozen": false,
+                            "defeated": false
+                    }
+                },
+                "opponent": "mewren" {
+                    "minionsAffected": [
+                        {
+                            "owner": "mewren",
+                            "minionPlace": 1,
+                            "minion": "Murloc Raider",
+                            "healthChange": -3,
+                            "attackChange": 0,
+                            "frozen": false,
+                            "silenced": false,
+                            "sapped": false,
+                            "sheeped": false,
+                            "frogged": false,
+                            "defeated": true
+                        }
+                    ],
+                    "heroAffected": 
+                    {
+                            "weaponDamage": 0,
+                            "weaponDurability": 0,
+                            "healthChange": -3,
+                            "attackChange": 0,
+                            "armourChange": 0,
+                            "frozen": false,
+                            "defeated": true
+                    }
+                }
+            }
+        }
+
++ Response 201 (application/json)
+
+        { "gameId": "ABCD" }
