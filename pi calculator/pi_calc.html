@@ -1,0 +1,40 @@
+<html>
+<head>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta content="utf-8" http-equiv="encoding">
+	<script>
+function myFunction() {
+	
+	var r = document.getElementById("radius").value;
+   	var d = r*2;
+	var pi = Math.PI;
+	var a = pi*r*r;
+	var tau = pi*2;
+	var c = tau*r;
+	
+	var lineFeed = "\</br>";
+	
+	var results = "Radius = " + r 
+	+ lineFeed + " Diameter = " + d 
+	+ lineFeed + " pi = " + pi 
+	+ lineFeed + " area = " + a 
+	+ lineFeed + " tau = " + tau 
+	+ lineFeed + " circumference = " + c;
+	
+	document.getElementById("results").innerHTML = results;
+	return true;
+	
+}
+</script>
+</head>
+<body>
+<form onsubmit="return false;" accept-charset="UTF-8">
+Radius:<br>
+<input id="radius" type="text" name="radius" value="">
+<br><br>
+<input type="button" value="Calculate" onclick="myFunction();">
+</form> 
+<div id="results"></div>
+</body>
+</html>
+
