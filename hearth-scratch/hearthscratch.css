@@ -1,0 +1,173 @@
+
+#s{
+ color:rgb(255,0,255);
+
+} 
+  .Warning{
+    background-color:rgb(255,0,0);
+    color:rgb(255,255,255);
+  }
+  p{
+	background-color:rgb(255,0,255);
+  color:rgb(255,255,255)
+  }
+#p{
+	background-color:rgb(255,0,255);
+    color:rgb(255,255,255)
+  }
+  #p2{
+	background-color:rgb(255,0,255);
+    color:rgb(255,255,255)
+  }
+  body{
+     text-align: center;
+  }
+  table {
+    background-color:rgb(100,100,100);
+    text-align: center;
+margin-left:auto; 
+margin-right:auto;
+}
+#white {
+background-color:rgb(255,255,255);
+margin-left:auto; 
+margin-right:auto;
+width: 25%;
+}#header ul {
+list-style: none;
+padding:0;
+margin:0;
+}
+#header li {
+display: inline;
+border: solid;
+border-width: 1px 1px 0 1px;
+margin: 0 0.5em 0 0;
+}
+
+#header li a {
+padding: 0 1em;
+}
+
+#content {
+border: 1px solid;
+}
+#header #selected {
+padding-bottom: 1px; 
+background: white;
+}
+#header li {
+float: left;
+border: 1px solid;
+border-bottom-width: 0;
+margin: 0 0.5em 0 0;
+}
+#content {
+border: 1px solid;
+clear: both;
+}
+
+h1 {
+margin: 0;
+padding: 0 0 1em 0;
+} 
+#header #selected {
+position: relative;
+top: 1px;
+background: white;
+}
+/** Start: to style navigation tab http://www.mkyong.com/jquery/how-to-use-css-and-jquery-to-hide-and-show-tab-content/ **/
+.nav {
+margin-bottom: 18px;
+margin-left: 0;
+list-style: none;
+}
+
+.nav > li > a {
+display: block;
+}
+
+.nav-tabs{
+*zoom: 1;
+}
+
+.nav-tabs:before,
+.nav-tabs:after {
+display: table;
+content: "";
+}
+
+.nav-tabs:after {
+clear: both;
+}
+
+.nav-tabs > li {
+float: left;
+background-color:rgb(255,255,255);
+}
+
+.nav-tabs > li > a {
+padding-right: 12px;
+padding-left: 12px;
+margin-right: 2px;
+line-height: 14px;
+}
+
+.nav-tabs {
+border-bottom: 1px solid #ddd;
+}
+
+.nav-tabs > li {
+margin-bottom: -1px;
+}
+
+.nav-tabs > li > a {
+padding-top: 8px;
+padding-bottom: 8px;
+line-height: 18px;
+border: 1px solid transparent;
+-webkit-border-radius: 4px 4px 0 0;
+ -moz-border-radius: 4px 4px 0 0;
+	  border-radius: 4px 4px 0 0;
+}
+
+.nav-tabs > li > a:hover {
+border-color: #eeeeee #eeeeee #dddddd;
+}
+
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover {
+color: #555555;
+cursor: default;
+background-color: #ffffff;
+border: 1px solid #ddd;
+border-bottom-color: transparent;
+}
+
+li {
+line-height: 18px;
+}
+
+.tab-content.active{
+display: block;
+}
+
+.tab-content.hide{
+display: none;
+}
+.right-half-page {
+width: 50%;
+float: right;
+background-color: rgb(255,255,255);
+color: rgb(0,0,0);
+}
+.left-half-page  {
+width: 50%;
+float: left;
+background-color: rgb(0,0,0);
+color: rgb(255,255,255);
+}
+
+#demo {
+  position: absolute;
+}

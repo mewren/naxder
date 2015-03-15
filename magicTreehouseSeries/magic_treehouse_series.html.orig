@@ -35,13 +35,13 @@
         <tr>
           <td>3</td><td>Mummies in the Morning</td><td></td>
     	</tr>
-        <tr class="read">
+        <tr>
           <td>4</td><td>Pirates Past Noon </td><td></td>
     	</tr>
-        <tr class="read">
+        <tr>
           <td>5</td><td>Night of the Ninjas</td><td></td>
     	</tr>	
-        <tr class="read">
+        <tr>
           <td>6</td><td>Afternoon on the Amazon</td><td></td>
     	</tr>
         <tr>
@@ -57,21 +57,32 @@
           <td>10</td><td>Ghost Town at Sundown</td><td></td>
     	</tr>
         <tr class="read">
+<<<<<<< HEAD
+          <td>11</td><td>Lions at Lunchtime</td><td></td>
+=======
           <td>11</td><td>Lions at Lunchtime</td><td>Read</td>
+>>>>>>> 459e32112b7b4637cdfcd1d59ea35703c9de3207
     	</tr>
         <tr>
           <td>12</td><td>Polar Bears Past Bedtime</td><td></td>
     	</tr>
-        <tr class="read">
+        <tr>
           <td>13</td><td>Vacation Under The Volcano </td><td></td>
     	</tr>
         <tr class="read">
+<<<<<<< HEAD
+          <td>14</td><td>Day of the Dragon King </td><td></td>
+    	</tr>
+        <tr class="read">
+          <td>15</td><td>Viking Ships at Sunrise</td><td></td>
+=======
           <td>14</td><td>Day of the Dragon King </td><td>Read</td>
     	</tr>
         <tr class="read">
           <td>15</td><td>Viking Ships at Sunrise</td><td>Read</td>
+>>>>>>> 459e32112b7b4637cdfcd1d59ea35703c9de3207
     	</tr>
-        <tr class="read">
+        <tr>
           <td>16</td><td>Hour of the Olympics </td><td></td>
     	</tr>
         <tr>
@@ -92,13 +103,13 @@
         <tr>
           <td>22</td><td>Revolutionary War on Wednesday</td><td></td>
     	</tr>
-        <tr class="read">
+        <tr>
           <td>23</td><td>Twister on Tuesday</td><td></td>
     	</tr>
-        <tr class="read">
+        <tr>
           <td>24</td><td>Earthquake in the Early Morning</td><td></td>
     	</tr>
-        <tr class="read">
+        <tr>
           <td>25</td><td>Stage Fright on a Summer Night</td><td></td>
     	</tr>		
         <tr>
@@ -129,13 +140,13 @@
         <tr class="finished">
           <td>32</td><td>Winter of the Ice Wizard</td><td>Read, was a bit scary</td>
     	</tr>
-        <tr class="finished">
+        <tr>
           <td>33</td><td>Carnival at Candlelight</td><td></td>
     	</tr>	
-        <tr class="read">
+        <tr>
           <td>34</td><td>Season of the Sandstorms</td><td></td>
     	</tr>
-        <tr class="read">
+        <tr>
           <td>35</td><td>Night of the New Magicians</td><td></td>
     	</tr>
         <tr class="read">
@@ -177,7 +188,7 @@
         <tr>
           <td>48</td><td>A Perfect Time For Pandas</td><td></td>
     	</tr>	
-        <tr class="read">
+        <tr>
           <td>49</td><td>Stallion by Starlight</td><td></td>
     	</tr>
         <tr>
@@ -189,6 +200,6 @@
         <tr>
           <td>52</td><td>Soccer on Sunday</td><td></td>
     	</tr>											
-	  </table>
+	  </table>  
     </body>
 </html>
