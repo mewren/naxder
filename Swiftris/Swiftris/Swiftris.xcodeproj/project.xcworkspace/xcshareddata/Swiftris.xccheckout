@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>E1CFB235-F244-4195-9E1B-419C50234C33</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Swiftris</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>5B3A6FCB6AE0B7B47C76C287FE829BAC22C279A2</key>
 		<string>https://github.com/mewren/naxder.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Swiftris/Swiftris/Swiftris.xcodeproj/project.xcworkspace</string>
+	<string>Swiftris/Swiftris/Swiftris.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>5B3A6FCB6AE0B7B47C76C287FE829BAC22C279A2</key>
