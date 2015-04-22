@@ -120,15 +120,42 @@ class Shape: Hashable, Printable {
     final func rotateBlocks(orientation: Orientation) {
         if let blockRowColumnTranslation:Array<(columnDiff: Int, rowDiff: Int)> = blockRowColumnPositions[orientation] {
             // #1
-            for (idx, (columnDiff:Int, rowDiff:Int)) in enumerate(blockRowColumnTranslation) {
-                blocks[idx].column = column + columnDiff
-                blocks[idx].row = row + rowDiff
+            for (idx, diffs) in enumerate(blockRowColumnTranslation) {
+                blocks[idx].column = column + diffs.columnDiff
+                blocks[idx].row = row + diffs.rowDiff
             }
+            //NOTE - had to fix code here JJJ
         }
     }
     
+    // #1
+    final func rotateClockwise() {
+        let newOrientation = Orientation.rotate(orientation, clockwise: true)
+        rotateBlocks(newOrientation)
+        orientation = newOrientation
+    }
+    
+    final func rotateCounterClockwise() {
+        let newOrientation = Orientation.rotate(orientation, clockwise: false)
+        rotateBlocks(newOrientation)
+        orientation = newOrientation
+    }
+
+    
     final func lowerShapeByOneRow() {
         shiftBy(0, rows:1)
+    }
+    
+    final func raiseShapeByOneRow() {
+        shiftBy(0, rows:-1)
+    }
+    
+    final func shiftRightByOneColumn() {
+        shiftBy(1, rows:0)
+    }
+    
+    final func shiftLeftByOneColumn() {
+        shiftBy(-1, rows:0)
     }
     
     // #2
