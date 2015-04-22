@@ -12,6 +12,11 @@
 		BD39631B1AE4729400223384 /* SquareShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39631A1AE4729400223384 /* SquareShape.swift */; };
 		BD39631D1AE4734500223384 /* TShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39631C1AE4734500223384 /* TShape.swift */; };
 		BD39631F1AE4744D00223384 /* LineShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39631E1AE4744D00223384 /* LineShape.swift */; };
+		BDA250221AE5463000471629 /* LShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA250211AE5463000471629 /* LShape.swift */; };
+		BDA250241AE5473D00471629 /* JShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA250231AE5473D00471629 /* JShape.swift */; };
+		BDA250261AE5480600471629 /* SShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA250251AE5480600471629 /* SShape.swift */; };
+		BDA250281AE5487200471629 /* ZShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA250271AE5487200471629 /* ZShape.swift */; };
+		BDA2502A1AE54CA600471629 /* Swiftris.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA250291AE54CA600471629 /* Swiftris.swift */; };
 		BDD1B0D21AE3253F00C00959 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1B0D11AE3253F00C00959 /* AppDelegate.swift */; };
 		BDD1B0D61AE3253F00C00959 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1B0D51AE3253F00C00959 /* GameScene.swift */; };
 		BDD1B0D81AE3253F00C00959 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1B0D71AE3253F00C00959 /* GameViewController.swift */; };
@@ -50,6 +55,11 @@
 		BD39631A1AE4729400223384 /* SquareShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareShape.swift; sourceTree = "<group>"; };
 		BD39631C1AE4734500223384 /* TShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TShape.swift; sourceTree = "<group>"; };
 		BD39631E1AE4744D00223384 /* LineShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineShape.swift; sourceTree = "<group>"; };
+		BDA250211AE5463000471629 /* LShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LShape.swift; sourceTree = "<group>"; };
+		BDA250231AE5473D00471629 /* JShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JShape.swift; sourceTree = "<group>"; };
+		BDA250251AE5480600471629 /* SShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SShape.swift; sourceTree = "<group>"; };
+		BDA250271AE5487200471629 /* ZShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZShape.swift; sourceTree = "<group>"; };
+		BDA250291AE54CA600471629 /* Swiftris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swiftris.swift; sourceTree = "<group>"; };
 		BDD1B0CC1AE3253F00C00959 /* Swiftris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD1B0D01AE3253F00C00959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDD1B0D11AE3253F00C00959 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -118,10 +128,15 @@
 				BDD1B0D11AE3253F00C00959 /* AppDelegate.swift */,
 				BDD1B0D51AE3253F00C00959 /* GameScene.swift */,
 				BD3963161AE46EDC00223384 /* Block.swift */,
+				BDA250291AE54CA600471629 /* Swiftris.swift */,
 				BD3963181AE470BF00223384 /* Shape.swift */,
 				BD39631A1AE4729400223384 /* SquareShape.swift */,
 				BD39631C1AE4734500223384 /* TShape.swift */,
+				BDA250231AE5473D00471629 /* JShape.swift */,
+				BDA250251AE5480600471629 /* SShape.swift */,
 				BD39631E1AE4744D00223384 /* LineShape.swift */,
+				BDA250271AE5487200471629 /* ZShape.swift */,
+				BDA250211AE5463000471629 /* LShape.swift */,
 				BDD1B0D71AE3253F00C00959 /* GameViewController.swift */,
 				BDD1B0D91AE3253F00C00959 /* Main.storyboard */,
 				BDD1B0DC1AE3253F00C00959 /* Images.xcassets */,
@@ -225,6 +240,7 @@
 				TargetAttributes = {
 					BDD1B0CB1AE3253F00C00959 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = PP64RT7P8Z;
 					};
 					BDD1B0E41AE3253F00C00959 = {
 						CreatedOnToolsVersion = 6.3;
@@ -288,14 +304,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDA250221AE5463000471629 /* LShape.swift in Sources */,
 				BD39631B1AE4729400223384 /* SquareShape.swift in Sources */,
 				BDD1B0D61AE3253F00C00959 /* GameScene.swift in Sources */,
+				BDA250241AE5473D00471629 /* JShape.swift in Sources */,
+				BDA2502A1AE54CA600471629 /* Swiftris.swift in Sources */,
 				BD3963191AE470BF00223384 /* Shape.swift in Sources */,
 				BDD1B1161AE329B000C00959 /* Array2D.swift in Sources */,
 				BD39631F1AE4744D00223384 /* LineShape.swift in Sources */,
+				BDA250261AE5480600471629 /* SShape.swift in Sources */,
 				BD39631D1AE4734500223384 /* TShape.swift in Sources */,
 				BD3963171AE46EDC00223384 /* Block.swift in Sources */,
 				BDD1B0D81AE3253F00C00959 /* GameViewController.swift in Sources */,
+				BDA250281AE5487200471629 /* ZShape.swift in Sources */,
 				BDD1B0D21AE3253F00C00959 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,9 +446,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Swiftris/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -435,9 +459,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Swiftris/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -454,6 +481,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = SwiftrisTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swiftris.app/Swiftris";
@@ -469,6 +497,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = SwiftrisTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swiftris.app/Swiftris";

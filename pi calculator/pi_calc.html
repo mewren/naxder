@@ -5,7 +5,7 @@
 	<script>
 function myFunction() {
 	
-	var r = document.getElementById("radius").value;
+	var r = document.getElementById("radiusInput").value;
    	var d = r*2;
 	var pi = Math.PI;
 	var a = pi*r*r;
@@ -21,20 +21,65 @@ function myFunction() {
 	+ lineFeed + " tau = " + tau 
 	+ lineFeed + " circumference = " + c;
 	
-	document.getElementById("results").innerHTML = results;
+	//document.getElementById("results").innerHTML = results;
+	
+	document.getElementById("radius").innerHTML = "Radius = " + r ;
+	document.getElementById("diameter").innerHTML = "Diameter = " + d ;	
+	document.getElementById("pi").innerHTML = "Pi = " + pi ;
+	document.getElementById("area").innerHTML = "area = " + a ;
+	document.getElementById("tau").innerHTML = "tau = " + tau ;
+	document.getElementById("circumference").innerHTML = "Circumference = " + c ;
+	
+	document.getElementById("circle").style.height = d * 10 + 'px';
+	
+	
+	
 	return true;
 	
 }
 </script>
+
+<style>
+
+#radius {
+	color: 006400;
+}
+#diameter {
+	color: 8B0000;
+}
+
+#area {
+	color: 104E8B;
+}
+#circumference {
+	color: FF1493;
+}
+img {
+    display: inline-block;
+    
+} 
+</style>
+
 </head>
 <body>
 <form onsubmit="return false;" accept-charset="UTF-8">
 Radius:<br>
-<input id="radius" type="text" name="radius" value="">
+<input id="radiusInput" type="text" name="radius" value="">
 <br><br>
 <input type="button" value="Calculate" onclick="myFunction();">
 </form> 
-<div id="results"></div>
+<div id="results">
+  <ul>
+    <li id="radius"></li>
+    <li id="diameter"></li>
+    <li id="pi"></li>
+    <li id="area"></li>    
+    <li id="tau"></li>
+    <li id="circumference"></li>    
+  </ul>
+  </ul>
+</div>
+<img id="circle" src="costume4.svg" alt="diagram of circle">
 </body>
 </html>
 
